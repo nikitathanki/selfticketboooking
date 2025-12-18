@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Login from '/Pages/Login.jsx';
-import Register from '/Pages/Register.jsx';
+import Login from './Pages/Login';
+import Register from './Pages/Register ';
 
 function App() {
   const router = createBrowserRouter([

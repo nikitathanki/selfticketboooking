@@ -1,15 +1,6 @@
-import { Phone } from "lucide-react"
-import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 
 const Register = () => {
-    const {formData, setformData}= useState({
-        name:"",
-        email:"",
-        Phone:"",
-        password:""
-    });
-const [erros, setErrors]= useState({});
 const navigate = useNavigate()
 
   return (
@@ -42,7 +33,6 @@ const navigate = useNavigate()
                         <div className="relative mt-1">
                             <input
                                 type="text"
-                                value={formData.name}
                                 placeholder="John Doe"
                                 className="w-full pl-4 pr-4 py-3 bg-gray-100 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-orange-400"
                             />
@@ -85,7 +75,7 @@ const navigate = useNavigate()
                         <div className="relative mt-1">
                             <input
                                 type="password"
-                                placeholder="••••••••"
+                                placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢"
                                 className="w-full pl-4 pr-4 py-3 bg-gray-100 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-orange-400"
                             />
                         </div>
