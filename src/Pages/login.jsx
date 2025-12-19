@@ -60,7 +60,7 @@ const Login = () => {
             <label className="text-xs text-gray-600 font-medium">Password</label>
             <input
               type="password"
-              placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢"
+              placeholder="••••••••"
               className="w-full mt-1 px-4 py-3 rounded-full border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-orange-400"
             />
           </div>
@@ -73,7 +73,7 @@ const Login = () => {
         {/* Footer */}
         {activeTab === "user" && (
           <p className="mt-4 text-xs text-gray-500">
-            Donâ€™t have an account?{" "}
+            Don’t have an account?{" "}
             <button onClick={() => navigate('/register')} className="text-orange-500 cursor-pointer hover:underline">
               Sign Up
             </button>
